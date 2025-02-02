@@ -7,6 +7,10 @@ set(This TestsToRun)
 # Add unit test .cpp files which are in directory test
 set(Sources
     SampleClassTests.cpp
+    DNAStrandTests.cpp
+    AminoAcidTests.cpp
+    CodonTests.cpp
+    CodonSetTests.cpp
 )
 
 add_executable(${This} ${Sources})

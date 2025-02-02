@@ -16,10 +16,18 @@ add_subdirectory(googletest)
 
 set (Headers
     include/SampleClass.h
+    include/DNAStrand.h 
+    include/AminoAcid.h 
+    include/Codon.h 
+    include/CodonSet.h 
 )
 
 set (Sources
     src/SampleClass.cpp
+    src/DNAStrand.cpp 
+    src/AminoAcid.cpp 
+    src/Codon.cpp 
+    src/CodonSet.cpp 
 )
 
 add_library(${This} STATIC ${Sources} ${Headers})
